@@ -45,7 +45,116 @@
       };
     </script>
   </head>
-  <body>
-    <h2>Hello</h2>
+  <body class="font-Manrope">
+    <header
+      class="bg-[linear-gradient(0.00deg,rgba(255,255,255,0),rgb(244,244,244))] h-svh"
+    >
+      <!-- nav-bar-section -->
+      <nav class="w-11/12 mx-auto pt-12 hidden lg:block">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <a href="#" class="text-[#494949] font-extrabold">Home</a>
+                </li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-2">
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-primary p-3 rounded-full"
+              ></i>
+              <h3 class="font-extrabold text-3xl text-[#212121]">Rinterio</h3>
+            </div>
+          </div>
+          <div class="navbar-center">
+            <ul
+              class="menu menu-horizontal text-[#737373] font-medium text-base"
+            >
+              <li>
+                <a href="#" class="text-[#494949] font-extrabold">Home</a>
+              </li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <i
+              class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full ring-1 ring-slate-300"
+            ></i>
+            <i
+              class="fa-solid fa-cart-shopping bg-white p-3 rounded-full ring-1 ring-slate-300"
+            ></i>
+            <button
+              class="bg-primary font-extrabold text-xl text-[#1C1C1C] py-3 px-5 rounded-full"
+            >
+              Book Consult
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white p-3 rounded-full"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner-section -->
+      <section class="w-11/12 mx-auto mt-10">
+        <div class="flex flex-col items-center">
+          <!-- img-child -->
+          <div>
+            <img src="./images/banner.png" alt="" />
+          </div>
+          <!-- text-child -->
+          <div class="text-center max-w-6xl mx-auto mt-6">
+            <h1
+              class="font-extrabold text-4xl md:text-5xl lg:text-6xl text-[#212121]"
+            >
+              A barn house of this design has a striking appearance
+            </h1>
+            <p class="font-medium text-base text-[#494949] mt-6">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <button
+              class="mt-8 bg-[rgba(171,239,95,0.5)] font-bold text-xl text-[#212121] py-3 px-6 rounded-full border-2 border-primary w-full sm:w-auto"
+            >
+              View Details
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-primary p-3 rounded-full ml-2"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
